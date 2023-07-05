@@ -6,9 +6,9 @@ import re
 # example usage (PowerShell)
 """
 python build_standalone_dbt_docs.py `
---dbt_project_dir "C:\git\product-dof\transformation\" `
---standalone_html_output_dir "C:\git\product-dof\" `
---standalone_html_output_filename "product-dof.html" `
+--dbt_project_dir "C:\git\dbt_project\models\" `
+--standalone_html_output_dir "C:\git\dbt_project\" `
+--standalone_html_output_filename "dbt_docs.html" `
 --encoding "utf-8" `
 --ignore_projects "project1,another_project2"
 """
